@@ -13,7 +13,7 @@ const Navbar = () => {
     <Fragment>
       <ul>
         <li>
-          <Link to='/profiles'>Developers</Link>
+          <Link to='/profiles'>Users</Link>
         </li>
         <li>
           <Link to='/posts'>Posts</Link>
