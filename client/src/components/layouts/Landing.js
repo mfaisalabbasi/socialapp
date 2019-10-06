@@ -14,8 +14,8 @@ const Landing = () => {
           <div className='landing-inner'>
             <h1 className='x-large'>Developer Connector</h1>
             <p className='lead'>
-              Create Developer Profile/portfolio and give get help to
-              other...Developer
+              Create Profile and Connect to MoonSocially community for making
+              life Extra Socially!!!
             </p>
             <div className='buttons'>
               <Link to='/register' className='btn btn-primary'>
