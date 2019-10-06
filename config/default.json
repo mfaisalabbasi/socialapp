@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://mf333:professional@socialdev-3dieo.mongodb.net/test?retryWrites=true&w=majority",
+	"mySecret": "professional"
+}
