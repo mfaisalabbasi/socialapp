@@ -2,10 +2,10 @@
   "name": "socialapp",
   "version": "1.0.0",
   "description": "social network for developers",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
     "client": "npm start --prefix client",
+    "start": "nodemon server.js",
     "server": "nodemon server",
     "dev": "concurrently \"npm run client\" \"npm run server\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/mfaisalabbasi/socialapp#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "concurrently": "^3.5.1",
     "config": "^3.1.0",
     "express": "^4.17.1",
     "express-validator": "^6.1.1",
