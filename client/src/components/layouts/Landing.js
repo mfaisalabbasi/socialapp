@@ -12,7 +12,7 @@ const Landing = () => {
       <section className='landing'>
         <div className='dark-overlay'>
           <div className='landing-inner'>
-            <h1 className='x-large'>Developer Connector</h1>
+            <h1 className='x-large'>Social Community</h1>
             <p className='lead'>
               Create Profile and Connect to MoonSocially community for making
               life Extra Socially!!!
